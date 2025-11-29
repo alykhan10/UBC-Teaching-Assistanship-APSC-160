@@ -42,4 +42,4 @@ Student Number: 4>9>2>7>9>2>7>6
 
 ## Template
 
-**TinkerCAD Link:** 
+**TinkerCAD Link:** https://www.tinkercad.com/things/44ayA5Sz6e0-dual-seven-segment-display?sharecode=05NPSkVI7FahYUo57CbjRLFR3kMrXJatXTzhn5H5nOk
