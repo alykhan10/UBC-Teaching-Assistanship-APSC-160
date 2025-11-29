@@ -1,5 +1,3 @@
-# Problem: Dual 8-LED Display with Pushbutton Control – Name and Student Number
-
 # Problem: Dual 8-LED Display – Name and Student Number
 
 * **Recommended Time:** 15-20 min  
