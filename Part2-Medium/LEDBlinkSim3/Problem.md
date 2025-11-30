@@ -1,6 +1,6 @@
 # Problem: Bidirectional LED Sequence with Variable Speed
 
-**Recommended Time:** 15–20 min  
+**Recommended Time:** 20–25 min  
 **Topics:** Digital Output, Arrays, Loops, Functions, Timing, Serial Communication
 
 ## Description
