@@ -44,4 +44,4 @@ The sequence continues indefinitely, with speed dynamically controlled by the po
 
 ## Template
 
-**TinkerCAD Link**: 
+**TinkerCAD Link**: https://www.tinkercad.com/things/c0o8fjyzfV7-led-blink-pot-simulation?sharecode=Gh4GnqMbEOhvu6-lvebR54Xz6UUdDKYnY9YNjx8V1cg
