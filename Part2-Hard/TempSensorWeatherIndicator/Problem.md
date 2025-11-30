@@ -54,4 +54,4 @@ The sequence continues, updating the LED state and Serial Monitor as the tempera
 
 ## Template
 
-**TinkerCAD Link:** 
+**TinkerCAD Link:** https://www.tinkercad.com/things/4BXXICF1GpV-temperature-sensor?sharecode=xwuQYecxHJdIN7UifSqSt4z3AKLCIoTlTFs2ChgCp68
