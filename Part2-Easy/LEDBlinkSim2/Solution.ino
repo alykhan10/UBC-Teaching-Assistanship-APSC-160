@@ -1,96 +1,79 @@
-#define LED1 9
-#define LED2 8
-#define LED3 7
-#define LED4 6
-#define LED5 5
-#define LED6 4
-#define LED7 3
-#define LED8 2
+// Total number of LEDs
+const int numLEDs = 10;
 
-// ----------------------------
-// Configures LED pins and initializes serial communication
-// ----------------------------
+// Array storing the pin numbers for each LED (pins 13 to 4)
+const int LED[numLEDs] = {13, 12, 11, 10, 9, 8, 7, 6, 5, 4};
+
+// Function prototype for backward LED sequence
+void blinkLED();
+
+// ......................................
+// Defines LED pins and initializes serial communication
+// ......................................
 void setup()
 {
-  // Configure left-side LEDs as OUTPUT
-  pinMode(LED1, OUTPUT);
-  pinMode(LED2, OUTPUT);
-  pinMode(LED3, OUTPUT);
-  pinMode(LED4, OUTPUT);
-
-  // Configure right-side LEDs as OUTPUT
-  pinMode(LED5, OUTPUT);
-  pinMode(LED6, OUTPUT);
-  pinMode(LED7, OUTPUT);
-  pinMode(LED8, OUTPUT);
-
-  // Start serial communication
+  // Set each LED pin as OUTPUT
+  for(int count = 0; count < numLEDs; count++)
+  {
+    pinMode(LED[count], OUTPUT);
+  }
+  
+  // Initialize Serial Monitor at 9600 baud rate
   Serial.begin(9600);
 }
 
-// ----------------------------
-// Controls the sequence of turning LEDs ON and OFF in opposite pairs
-// ----------------------------
+// ......................................
+// Performs forward sequence and calls function for backward sequence
+// ......................................
 void loop()
 {
-  // --- TURN ON SEQUENCE (inward) ---
+  // Quick forward sequence: turn LEDs ON from LED #1 to LED #10
+  for(int count = 0; count < numLEDs; count++)
+  {
+    digitalWrite(LED[count], HIGH); // Turn current LED ON
+    Serial.print("LED #");
+    Serial.print(count + 1);
+    Serial.println(" is On."); // Print LED status to Serial Monitor
+    delay(100); // Short delay of 0.1 second
+  }
+  
+  Serial.print("\n"); // Add newline for clarity in Serial Monitor
+  
+  // Call function for backward sequences
+  blinkLED();
+  
+  Serial.print("\n"); // Add newline for clarity in Serial Monitor
+  
+  delay(100); // Short pause before next iteration of loop
+}
 
-  // Turn on outermost pair (LED1 and LED8)
-  digitalWrite(LED1, HIGH);
-  Serial.println("LED #1 is On.");
-  digitalWrite(LED8, HIGH);
-  Serial.println("LED #8 is On.\n");
-  delay(1000);
-
-  // Turn on next inner pair (LED2 and LED7)
-  digitalWrite(LED2, HIGH);
-  Serial.println("LED #2 is On.");
-  digitalWrite(LED7, HIGH);
-  Serial.println("LED #7 is On.\n");
-  delay(1000);
-
-  // Turn on next inner pair (LED3 and LED6)
-  digitalWrite(LED3, HIGH);
-  Serial.println("LED #3 is On.");
-  digitalWrite(LED6, HIGH);
-  Serial.println("LED #6 is On.\n");
-  delay(1000);
-
-  // Turn on innermost pair (LED4 and LED5)
-  digitalWrite(LED4, HIGH);
-  Serial.println("LED #4 is On.");
-  digitalWrite(LED5, HIGH);
-  Serial.println("LED #5 is On.\n");
-  delay(1000);
-
-
-  // --- TURN OFF SEQUENCE (outward) ---
-
-  // Turn off innermost pair (LED4 and LED5)
-  digitalWrite(LED4, LOW);
-  Serial.println("LED #4 is Off.");
-  digitalWrite(LED5, LOW);
-  Serial.println("LED #5 is Off.\n");
-  delay(1000);
-
-  // Turn off next inner pair (LED3 and LED6)
-  digitalWrite(LED3, LOW);
-  Serial.println("LED #3 is Off.");
-  digitalWrite(LED6, LOW);
-  Serial.println("LED #6 is Off.\n");
-  delay(1000);
-
-  // Turn off next inner pair (LED2 and LED7)
-  digitalWrite(LED2, LOW);
-  Serial.println("LED #2 is Off.");
-  digitalWrite(LED7, LOW);
-  Serial.println("LED #7 is Off.\n");
-  delay(1000);
-
-  // Turn off outermost pair (LED1 and LED8)
-  digitalWrite(LED1, LOW);
-  Serial.println("LED #1 is Off.");
-  digitalWrite(LED8, LOW);
-  Serial.println("LED #8 is Off.\n");
-  delay(1000);
+// ......................................
+// Function to perform backward sequences
+// ......................................
+void blinkLED()
+{
+  // Loop through each LED from LED #10 to LED #1
+  for(int ledID = numLEDs - 1; ledID >= 0; ledID--)
+  {
+    // Inner loop controls each LED in backward order
+    for(int count = numLEDs - 1; count >= 0; count--)
+    {
+      if(count == ledID)
+      {
+        // Turn ON the LED corresponding to current step
+        digitalWrite(LED[count], HIGH);
+        Serial.print("LED #");
+        Serial.print(count + 1);
+        Serial.println(" is On."); // Print active LED status
+        delay(100); // Short delay for quick backward sequence
+      }
+      
+      else
+      {
+        // Turn OFF all other LEDs
+        digitalWrite(LED[count], LOW);
+        delay(100); // Delay to keep timing consistent
+      }
+    }
+  }
 }
