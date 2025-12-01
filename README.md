@@ -20,7 +20,7 @@ You will have a question file, `problem.md`, and 3 C files:
 
 ### For Arduino Questions
 
-You will also have a question file, `problem.md`. At the bottom, there will be a link to open the file and create a copy on TinkerCAD. 
+You will also have a question file, `problem.md`. At the bottom, there will be a link to open the template and create a copy on TinkerCAD. 
 - `solution.c` Do not change anything here. Answers are here.
 
 
