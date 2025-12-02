@@ -17,7 +17,10 @@ Implement the following functions:
 * Use only standard Arduino functions such as `analogWrite()`, `pinMode()`, and `Serial.println()`.  
 * The RGB LED is connected to **three PWM pins - 11, 10, 9**  for **red, blue, green** respectively.
 * The sequence should repeat indefinitely, generating a new random pattern each loop.  
-* Print the currently active color to the **Serial Monitor**.  
+* Print the currently active color to the **Serial Monitor**.
+
+**Disclaimer:**
+* PWM and `analogWrite()` are not covered in this iteration of APSC160 and therefore, not required material for the final exam. Please utilize these constructs at your own discretion.
 
 ## Input / Output
 * **Input:** None (the program generates random LED colors automatically).  
