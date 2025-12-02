@@ -8,7 +8,7 @@ What's going on? This was made with Git, a software that is used by programmers 
 
 **In a nutshell, The only important things you need to look at is `README.md` (what you're looking at now), `tips.md`, `C Programming`, and `Arduino Programming`.** The names are self explanatory, so have a look around!
 
-This guide is meant to server you as an additional resource to studying for the APSC 160 Final. We **strongly** recommend to check out `tips.md` too for additional advice!
+This guide is meant to serve as an additional resource to studying for the APSC 160 Final. Preferably, work your way up the problems, from 'Warm Up/Easy' to 'Medium' and then 'Hard'. We also **strongly** recommend to check out `tips.md` too for additional advice! 
 
 ### For C Questions
 
@@ -66,12 +66,12 @@ In the `problem.md` file, there is a template to TinkerCAD
     - Functions
     - Arrays
     - Strings
-    - Random
+    - Random Numbers
 - **Arduino Programming**
     - Digital I/O
     - Analog I/O
     - 7-Segment Display  
-    - Random
+    - Random Numbers
     - Timing
     - Advanced Timing  
 
@@ -83,7 +83,7 @@ In the `problem.md` file, there is a template to TinkerCAD
 | Name | Year | Major | Email |
 |:---:|:---:|:---:|:---:|
 | Daylen Chun | 2nd | Computer Engineering | dchun924@student.ubc.ca |
-| Aly Khan | 4th | Biomedical Engineering | alykhan5@student.ubc.ca |
+| Aly Khan Nuruddin | 4th | Biomedical Engineering | alykhan5@student.ubc.ca |
 
 
 
