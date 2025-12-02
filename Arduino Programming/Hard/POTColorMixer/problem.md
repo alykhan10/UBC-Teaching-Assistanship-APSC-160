@@ -35,6 +35,9 @@ The program must implement the following functions:
 - `toggleBlue()`: Reads the Blue potentiometer and sets the Blue LED channel.  
 - `toggleRGB(int outputValueRed, int outputValueGreen, int outputValueBlue)`: Determines the active color combination (including Purple, Turquoise, Yellow) and prints the color to the Serial Monitor.
 
+**Disclaimer:**
+* PWM is not covered in this iteration of APSC160 and therefore, is not required material for the final exam. Please utilize this construct at your own discretion.
+
 ## Input / Output
 
 **Input:**  
