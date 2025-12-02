@@ -20,7 +20,7 @@ Implement the following functions:
 * Print the currently active color to the **Serial Monitor**.
 
 **Disclaimer:**
-* PWM and `analogWrite()` are not covered in this iteration of APSC160 and therefore, not required material for the final exam. Please utilize these constructs at your own discretion.
+* PWM and `analogWrite()` are not covered in this iteration of APSC160 and therefore, not required material for the final exam. Please attempt this practice problem at your own discretion.
 
 ## Input / Output
 * **Input:** None (the program generates random LED colors automatically).  
