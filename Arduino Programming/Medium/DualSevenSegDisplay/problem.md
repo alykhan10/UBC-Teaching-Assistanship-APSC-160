@@ -1,4 +1,4 @@
-# 🟡 Dual 8-LED Display – Name and Student Number
+# 🟡 Dual 7-Segment Display – Name and Student Number
 
 * **Recommended Time:** 20-25 min  
 * **Topics:** Arduino Basics, Digital Output, Arrays, Functions
@@ -16,6 +16,9 @@ Write an Arduino program to display your **name** and **student number** using t
 * Each display uses 8 pins for the LEDs.  
 * Only standard Arduino functions such as `digitalWrite()`, `pinMode()`, and `delay()` may be used.  
 * The program must loop continuously, cycling through all characters of both name and student number.
+
+**Disclaimer:**
+* Dual 7-segment displays are not covered in this iteration of APSC160 and therefore, not required material for the final exam. Please attempt this practice problem at your own discretion.
 
 ## Input / Output
 * **Input:** None (characters to display are hardcoded in arrays).  
