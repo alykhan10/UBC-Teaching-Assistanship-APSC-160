@@ -41,4 +41,4 @@ Output: true
 
 ## Notes
 
-I gave you nothing in `template.c`
+The `template.c` file has no template
