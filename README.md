@@ -2,7 +2,6 @@
 
 > **Disclaimer:** These questions are not officially endorsed by APSC 160's teaching team, they are just TAs' opinions.
 
-
 ## Overview
 What's going on? This was made with Git, a software that is used by programmers to store code. You are currently on Github, the most commonly used platform that hosts code (like how YouTube hosts videos; Git and Github are not the same thing). You are currently looking at a repository (a folder with stuff in it).
 
@@ -77,7 +76,6 @@ In the `problem.md` file, there is a template to TinkerCAD
 
 > Note that the `C Programming` repository/folder includes Part 1 and Part 2 C content
 
-
 ## Authors
 
 | Name | Year | Major | Email |
@@ -85,7 +83,7 @@ In the `problem.md` file, there is a template to TinkerCAD
 | Daylen Chun | 2nd | Computer Engineering | dchun924@student.ubc.ca |
 | Aly Khan Nuruddin | 4th | Biomedical Engineering | alykhan5@student.ubc.ca |
 
-
+> The problems are sourced and possibly modified from various sources including CodeForces, HackerRank, CodeChef, LeetCode, and our imaginations. Message dchun924@student.ubc.ca for credentials.
 
 ## Inquiries
 
@@ -102,3 +100,5 @@ If you want additional tips/insights or anything else, email either/both of us!
 ### Future Updates <sub> (hopefully) </sub>
 - Make user I/O problems
 - Get random/string problems from Aly's guide working. As of now, just use his guide on Canvas.
+
+
