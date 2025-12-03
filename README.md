@@ -25,7 +25,7 @@ You will also have a question file, `problem.md`. At the bottom, there will be a
 
 ## How to Access This Repository
 
-<ins> For the C questions, There are two different ways: </ins>
+<ins> For the C questions, There are three different ways: </ins>
 
 ### 1. OnlineGDB
 
@@ -53,10 +53,21 @@ Now open the folder in your IDE and run from there!
 
 #### What happens if changes are made by us (and hopefully announced on Piazza)?
 
-Open your terminal in the `APSC-160-Practice` folder and run:
+Open your terminal and navigate to the `APSC160-FinalPractice-2025` folder and run:
 ``` bash
 git pull origin main
 ```
+
+
+### 3. Copy and Pasting/Downloading the Directory into your IDE
+
+I don't recommend this method to be fair. As I'd choose to be simplistic with onlineGDB or up to industry standard with Git.
+
+To do it through downloading, click *Code* then *Download ZIP*. Then open the folder in your IDE.
+
+You can also just create the `template.c`, `solution.c`, and `testing.c` files yourself, and then copy and paste from this website. (like what I did in onlineGDB)
+
+
 ---
 <ins> For Arduino questions: </ins>  
 
