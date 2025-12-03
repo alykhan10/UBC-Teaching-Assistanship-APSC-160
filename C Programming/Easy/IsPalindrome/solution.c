@@ -4,6 +4,7 @@
 /**
  * Checks if a given word is a palindrome.
  * @param word The input string to check.
+ * @returns true if the word is a palindrome, false otherwise.
  */
 bool isPalindrome(char word[]) {
     bool isPalin = true;

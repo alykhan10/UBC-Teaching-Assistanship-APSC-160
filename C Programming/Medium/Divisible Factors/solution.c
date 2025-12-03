@@ -13,8 +13,6 @@ int divisible_factors(int n, int d, int output_array[]);
  * @modifies: output_array[] to be filled with divisible factors
  * @returns: The size of output_array[]
  */ 
- 
-
 int divisible_factors(int n, int d, int output_array[]) {
     FILE* inputFile;
     FILE* outputFile;
