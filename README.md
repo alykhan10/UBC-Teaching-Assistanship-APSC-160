@@ -93,6 +93,8 @@ In the `problem.md` file, there is a template to TinkerCAD
 
 ## Inquiries
 
+This guide likely has some errors that we happened to not catch.
+
 If you find any mistakes/problems/suggestions in `C Programming` or issues with the repository, email dchun924@student.ubc.ca
 
 If you find any mistakes/problems/suggestions in `Arduino Programming`, email alykhan5@student.ubc.ca
@@ -104,6 +106,7 @@ If you want additional tips/insights or anything else, email either/both of us!
 ---
 
 ### Future Updates <sub> (hopefully) </sub>
+
 - Make user I/O problems 
 - Get random/string problems from Aly's guide working. As of now, just use his guide on Canvas.
 
