@@ -32,6 +32,8 @@ You will also have a question file, `problem.md`. At the bottom, there will be a
 
 Copy and paste the template and solution files into onlineGDB. Make sure to use the *new file* button to create 3 separate files (and more if it's a file I/O question). **Make sure to put `testing.c` in the main file.** You can do this copy and paste method on other IDE's too if you are too lazy to do it the Git way below.
 
+![onlineGDBDemo](img\OnlineGDB_Demo.gif "onlineGDBDemo")
+
 ### 2. Using Git
 
 > Note: Only Windows (10/11) OS does not have Git pre-installed
@@ -46,7 +48,9 @@ git clone [THE LINK YOU JUST COPIED]
 
 Now open the folder in your IDE and run from there!
 
-<br> </br>
+> I use Visual Studio Code (VSCode) but feel free to use whatever IDE you'd like!
+![GitDemo](img\Git_Demo.gif "GitDemo")
+
 #### What happens if changes are made by us (and hopefully announced on Piazza)?
 
 Open your terminal in the `APSC-160-Practice` folder and run:
