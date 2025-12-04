@@ -20,4 +20,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Game of life solution to not use early returns
+
+## [1.0.1] - 2025-03-12
+
+### Changed
+
+- Removed the possible usage of fgets in Alien Language as it is not covered in this course
  
