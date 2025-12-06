@@ -32,4 +32,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Re-added the fgets comment in Alien Language (undid path 1.0.1)
+
+- ## [1.0.3] - 2025-05-12
+
+### Added
+
+- In Read and Equalize, added file error display requirement and test
+
+### Changed
+
+- Documentation for all testing.c files to #include "template.c" for all problems
+ 
  
