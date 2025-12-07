@@ -39,4 +39,4 @@ Implement the following functions:
 
 ## Template
 
-**TinkerCAD:** https://www.tinkercad.com/things/dGQFMcObD6O-rgb-led-sequence
+**TinkerCAD:** [https://www.tinkercad.com/things/dGQFMcObD6O-rgb-led-sequence](https://www.tinkercad.com/things/dGQFMcObD6O-rgb-led-sequence?sharecode=bUb9bverL8xIzytMgjf_j2F6VYjXPjP1oFqRwtd-MZ8)
