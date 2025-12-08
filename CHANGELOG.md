@@ -21,7 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Game of life solution to not use early returns
 
-## [1.0.1] - 2025-2-03
+## [1.0.1] - 2025-12-03
 
 ### Changed
 
