@@ -125,5 +125,4 @@ Updates to the repository can be found at `CHANGELOG.md`. Be sure to check there
 - Get random/string problems from Aly's guide working. As of now, just use his guide on Canvas.
 - Fix Alien Language to work on OnlineGDB.
 - Possibly add comments in the solutions if people ask for it.
-
-
+- Fix Simon Game sample solution.
