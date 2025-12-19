@@ -1,7 +1,6 @@
 # 💡 Success Guide & Additional Tips
 
 ## 📋 Quick Note
-> A small note about Daylen: I took this course in 2025 like all of you. I made this to give you personal insights to me being in your shoes, and my friends alongside me who have complained to me about the course.  
 
 This study guide is designed to teach you how to **"think like a coder"**, not just test your knowledge of the course up to this point.  
 
